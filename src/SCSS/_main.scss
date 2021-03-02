@@ -1,0 +1,38 @@
+/*
+███╗   ███╗ █████╗ ██╗███╗   ██╗    ███████╗████████╗██╗   ██╗██╗     ███████╗███████╗
+████╗ ████║██╔══██╗██║████╗  ██║    ██╔════╝╚══██╔══╝╚██╗ ██╔╝██║     ██╔════╝██╔════╝
+██╔████╔██║███████║██║██╔██╗ ██║    ███████╗   ██║    ╚████╔╝ ██║     █████╗  ███████╗
+██║╚██╔╝██║██╔══██║██║██║╚██╗██║    ╚════██║   ██║     ╚██╔╝  ██║     ██╔══╝  ╚════██║
+██║ ╚═╝ ██║██║  ██║██║██║ ╚████║    ███████║   ██║      ██║   ███████╗███████╗███████║
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚══════╝╚══════╝
+                                                                                      
+*/
+body{
+    background-color:$primary-black;
+    font-family: asap, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16pt;
+}
+.makeStyles-root-1{
+    background-color:$primary-black !important;
+}
+p{
+    font-family: asap, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16pt;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: niagara,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size:20rem;
+    line-height: .5rem;
+}
+.gold{
+    color:$primary-gold;
+}
