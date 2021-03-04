@@ -71,7 +71,31 @@ h1 {
 
 hr {
   background-color: #D8AB3A;
-  height: 1px;
+  height: .5px;
   border: none;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+ul {
+  text-align: left;
+}
+
+ul li.specimin {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  display: inline-block;
+  font-family: niagara,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  margin: 3rem;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */

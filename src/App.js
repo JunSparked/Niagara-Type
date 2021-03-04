@@ -147,9 +147,59 @@ export default function SimpleTabs() {
                <Chip className={classCustom.chips} label="Special Character" component="a" href="#chip" clickable />
                <Chip className={classCustom.chips} label="Compare" component="a" href="#chip" clickable />
             </div>
+            <div className={classCustom.center}>
+              <ul className="lower-case">
+                <li className="specimin">a</li>
+                <li className="specimin">b</li>
+                <li className="specimin">c</li>
+                <li className="specimin">d</li>
+                <li className="specimin">e</li>
+                <li className="specimin">f</li>
+                <li className="specimin">g</li>
+                <li className="specimin">h</li>
+                <li className="specimin">i</li>
+                <li className="specimin">j</li>
+                <li className="specimin">k</li>
+                <li className="specimin">l</li>
+                <li className="specimin">m</li>
+                <li className="specimin">n</li>
+                <li className="specimin">o</li>
+                <li className="specimin">p</li>
+                <li className="specimin">q</li>
+                <li className="specimin">r</li>
+                <li className="specimin">s</li>
+                <li className="specimin">t</li>
+                <li className="specimin">u</li>
+                <li className="specimin">v</li>
+                <li className="specimin">w</li>
+                <li className="specimin">x</li>
+                <li className="specimin">y</li>
+                <li className="specimin">z</li>
+              </ul>
+            </div>
           </Grid>
         </Grid>
       </section>
+
+      <section id="intro" className="black-background">
+        <Grid container justify="center" >
+          <Grid item  xs={8}>
+            <h1>DISPLAY FOCUS</h1>
+            <hr/>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </Grid>
+        </Grid>
+      </section>
+
     </div>
     
 
