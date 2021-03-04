@@ -17,12 +17,18 @@
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚══════╝╚══════╝
                                                                                       
 */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #262626;
   font-family: asap, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16pt;
+  line-height: 1.2em;
+  color: white;
 }
 
 .makeStyles-root-1 {
@@ -33,21 +39,39 @@ p {
   font-family: asap, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16pt;
+  font-size: 14pt;
+  color: white;
+  line-height: 1.7em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: niagara,serif;
   font-weight: 400;
   font-style: normal;
+  color: #D8AB3A;
 }
 
 h1 {
-  font-size: 20rem;
-  line-height: .5rem;
+  font-size: 3rem;
 }
 
 .gold {
   color: #D8AB3A;
+}
+
+.black-background {
+  background-color: #131313;
+  margin-top: 12rem;
+  padding: 5rem 0;
+}
+
+#specimin {
+  margin-top: 5rem;
+}
+
+hr {
+  background-color: #D8AB3A;
+  height: 1px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
