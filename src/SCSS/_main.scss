@@ -39,6 +39,13 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
     font-size: 3rem;
+    width:100%;
+    clear:both;
+}
+.span{
+    opacity:.4;
+    margin:.5rem 0 .5rem 0;
+    display: block;
 }
 .gold{
     color:$primary-gold;
@@ -48,7 +55,7 @@ h1{
     margin-top:12rem;
     padding:5rem 0;
 }
-#specimin{
+section{
     margin-top:5rem;
 }
 hr{
@@ -77,5 +84,52 @@ ul{
         text-decoration: none;
         list-style: none;
         list-style-type: none;
+        font-family: niagara,serif;
+        font-size:3rem;
+        line-height: 4rem;
     }
+}
+hr.left{
+    float: left;
+}
+.niagara{
+    font-family: niagara,serif;
+}
+.columns{
+    padding:0 15pt 0 15pt;
+}
+.thin{
+    font-family: niagara,serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.light{
+    font-family: niagara,serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.regular{
+    font-family: niagara,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.weights{
+    margin-bottom:0;
+    font-size:4.5rem;
+    line-height: 5rem;
+    margin-top:.5rem;
+}
+.n-margin{
+    margin:0;
+}
+.fade{
+    opacity: .4;
+}
+.MuiGrid-grid-xs-4{
+    p{
+        padding-right:10pt;
+    }
+}
+.upper-case{
+    text-transform: uppercase;
 }
